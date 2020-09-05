@@ -1,0 +1,96 @@
+.an1 {
+    background-image: url(blackboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 100px;
+    width: 1500px;
+    height: 1000px;
+}
+
+img {
+    width: 300px;
+}
+
+table {
+    width: 900px;
+    border: 0px;
+}
+
+.u {
+    background-image: url(bill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 20px;
+    color: crimson;
+}
+
+li {
+    color: brown;
+}
+
+p {
+    text-align: center;
+}
+
+.m {
+    align-items: center;
+    animation: an 1s infinite;
+}
+
+@keyframes an {
+    from {transform: translateX(20%) translateY(0%)}
+    to {transform: translateX(20%) translateY(0%)}
+}
+
+.n {
+    height: 400px;
+    width: 400px;
+    background: none;
+    font-size: 100px;
+    position: absolute;
+    top: 52.5%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -200px;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    animation: ani 5s infinite both linear;
+    color: white;
+}
+
+@keyframes ani {
+    0% {}
+    25% {border-radius: 25%;}
+    50% {border-radius: 50%;}
+    75% {border-radius: 25%;}
+    100% {}
+}
+
+.i:link {
+    color: #00FF00;
+    text-decoration: none;
+}
+
+.i:visited {
+    color: #FFC0CB;
+    text-decoration: none;
+}
+.i:hover {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.i:active {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.i {
+    font-size: 20px;
+}
